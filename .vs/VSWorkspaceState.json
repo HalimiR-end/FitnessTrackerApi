@@ -2,14 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\API",
-    "\\API\\Controllers",
-    "\\API\\Properties",
     "\\Application",
     "\\Domain",
-    "\\Domain\\DTOs",
     "\\Domain\\Enteties",
-    "\\Infrastructure",
-    "\\Infrastructure\\Data"
+    "\\FitnessTracker.Tests",
+    "\\Infrastructure"
   ],
   "PreviewInSolutionExplorer": false
 }

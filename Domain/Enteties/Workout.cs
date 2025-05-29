@@ -13,6 +13,6 @@ public class Workout
 
     public int UserId { get; set; }
     public User User { get; set; } = default!;
-
+    public string? Description { get; set; }
     public ICollection<WorkoutEntry> WorkoutEntries { get; set; } = new List<WorkoutEntry>();
 }

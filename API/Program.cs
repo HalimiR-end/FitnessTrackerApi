@@ -77,6 +77,14 @@ builder.Services.AddAuthentication("Bearer")
                 builder.Configuration["Jwt:Key"] ?? "defaultkey-32-characters-minimum"))
         };
     });
+builder.Services.AddScoped<IGoalService, GoalService>();
+builder.Services.AddScoped<IWorkoutService, WorkoutService>();
+builder.Services.AddScoped<IExerciseService, ExerciseService>();
+builder.Services.AddScoped<INutritionLogService, NutritionLogService>();
+builder.Services.AddScoped<IMeasurementService, MeasurementService>();
+builder.Services.AddScoped<IWorkoutEntryService, WorkoutEntryService>();
+
+
 
 // Port
 builder.WebHost.UseUrls("http://localhost:5050");
@@ -94,6 +102,7 @@ if (app.Environment.IsDevelopment())
 
 // app.UseHttpsRedirection(); // përdor vetëm në prodhim
 app.UseCors("AllowFrontend");
+app.UseMiddleware<ErrorHandlingMiddleware>();
 
 app.UseAuthentication();
 app.UseAuthorization();

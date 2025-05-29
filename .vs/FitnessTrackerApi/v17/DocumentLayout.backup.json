@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FB7478F5-7113-45BC-A5CF-B33C6E73C8D6}|API\\API.csproj|c:\\users\\themainuser\\pictures\\fitnesstrackerapi\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7478F5-7113-45BC-A5CF-B33C6E73C8D6}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{98597A4A-E3AA-4732-A459-EDC8C03871FA}|Application\\Application.csproj|c:\\users\\themainuser\\pictures\\fitnesstrackerapi\\application\\services\\workoutentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98597A4A-E3AA-4732-A459-EDC8C03871FA}|Application\\Application.csproj|solutionrelative:application\\services\\workoutentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6FBD6BF1-39FB-4181-830F-FBF59785D780}|Domain\\Domain.csproj|c:\\users\\themainuser\\pictures\\fitnesstrackerapi\\domain\\enteties\\workoutentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FBD6BF1-39FB-4181-830F-FBF59785D780}|Domain\\Domain.csproj|solutionrelative:domain\\enteties\\workoutentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7478F5-7113-45BC-A5CF-B33C6E73C8D6}|API\\API.csproj|c:\\users\\themainuser\\pictures\\fitnesstrackerapi\\api\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7478F5-7113-45BC-A5CF-B33C6E73C8D6}|API\\API.csproj|solutionrelative:api\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB7478F5-7113-45BC-A5CF-B33C6E73C8D6}|API\\API.csproj|c:\\users\\themainuser\\pictures\\fitnesstrackerapi\\api\\controllers\\workoutentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB7478F5-7113-45BC-A5CF-B33C6E73C8D6}|API\\API.csproj|solutionrelative:api\\controllers\\workoutentrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,43 +33,69 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-29T16:15:09.662Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-29T16:11:32.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T16:10:14.267Z",
+              "WhenOpened": "2025-05-29T21:37:45.926Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "API\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:37:25.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorkoutEntryController.cs",
+              "DocumentMoniker": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Controllers\\WorkoutEntryController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WorkoutEntryController.cs",
+              "ToolTip": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\API\\Controllers\\WorkoutEntryController.cs",
+              "RelativeToolTip": "API\\Controllers\\WorkoutEntryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:34:03.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorkoutEntryService.cs",
+              "DocumentMoniker": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Application\\services\\WorkoutEntryService.cs",
+              "RelativeDocumentMoniker": "Application\\services\\WorkoutEntryService.cs",
+              "ToolTip": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Application\\services\\WorkoutEntryService.cs",
+              "RelativeToolTip": "Application\\services\\WorkoutEntryService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:23:23.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorkoutEntry.cs",
+              "DocumentMoniker": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Enteties\\WorkoutEntry.cs",
+              "RelativeDocumentMoniker": "Domain\\Enteties\\WorkoutEntry.cs",
+              "ToolTip": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Enteties\\WorkoutEntry.cs",
+              "RelativeToolTip": "Domain\\Enteties\\WorkoutEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:20:35.623Z"
             }
           ]
         }

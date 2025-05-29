@@ -48,18 +48,18 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("Deadline")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Type")
+                    b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<bool>("IsAchieved")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<DateTime>("TargetDate")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<int>("UserId")
                         .HasColumnType("int");
-
-                    b.Property<float>("Value")
-                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -74,18 +74,23 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<double>("Biceps")
+                        .HasColumnType("double");
+
+                    b.Property<double>("Chest")
+                        .HasColumnType("double");
+
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
-
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("longtext");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.Property<float>("Value")
-                        .HasColumnType("float");
+                    b.Property<double>("Waist")
+                        .HasColumnType("double");
+
+                    b.Property<double>("Weight")
+                        .HasColumnType("double");
 
                     b.HasKey("Id");
 
@@ -109,8 +114,12 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int>("Fats")
+                    b.Property<int>("Fat")
                         .HasColumnType("int");
+
+                    b.Property<string>("MealType")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<int>("Protein")
                         .HasColumnType("int");
@@ -131,19 +140,24 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("DateUploaded")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("ImagePath")
+                    b.Property<string>("PhotoUrl")
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<DateTime>("TakenAt")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UserId1")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("UserId");
+
+                    b.HasIndex("UserId1");
 
                     b.ToTable("ProgressPhotos");
                 });
@@ -192,7 +206,7 @@ namespace Infrastructure.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -221,8 +235,8 @@ namespace Infrastructure.Migrations
                     b.Property<int>("Sets")
                         .HasColumnType("int");
 
-                    b.Property<float>("Weight")
-                        .HasColumnType("float");
+                    b.Property<double>("Weight")
+                        .HasColumnType("double");
 
                     b.Property<int>("WorkoutId")
                         .HasColumnType("int");
@@ -277,6 +291,10 @@ namespace Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Domain.Entities.User", null)
+                        .WithMany("ProgressPhotos")
+                        .HasForeignKey("UserId1");
+
                     b.Navigation("User");
                 });
 
@@ -322,6 +340,8 @@ namespace Infrastructure.Migrations
                     b.Navigation("Measurements");
 
                     b.Navigation("NutritionLogs");
+
+                    b.Navigation("ProgressPhotos");
 
                     b.Navigation("Workouts");
                 });
