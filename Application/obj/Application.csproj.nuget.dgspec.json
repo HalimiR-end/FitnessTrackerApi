@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Application\\Application.csproj": {}
+    "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Application\\Application.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\TheMainUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Application\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TheMainUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Domain.csproj"
+              "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -51,7 +52,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -72,24 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Domain.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\TheMainUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TheMainUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -98,6 +99,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -116,7 +118,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -137,24 +139,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\TheMainUser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TheMainUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -163,14 +165,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\TheMainUser\\Pictures\\FitnessTrackerApi\\Domain\\Domain.csproj"
+              "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\OneDrive\\Desktop\\FitnessTrackerApi\\Domain\\Domain.csproj"
               }
             }
           }
@@ -185,7 +188,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -224,7 +227,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
